@@ -1,8 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"command/package1"
+	"fmt"
+)
 
 func main() {
-	var a string = "Sterus!?"
-	fmt.Println("Hello", a)
+	fmt.Println(package1.HelloThere())
 }
